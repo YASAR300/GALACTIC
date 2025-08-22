@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 255 255 255;
+  --fg: 15 23 42;
+  --card: 248 250 252;
+  --muted: 100 116 139;
+}
+
+.dark:root {
+  --bg: 2 6 23;
+  --fg: 241 245 249;
+  --card: 15 23 42;
+  --muted: 148 163 184;
+}
+
+html, body, #root { height: 100%; }
+body {
+  background-color: rgb(var(--bg));
+  color: rgb(var(--fg));
+}
+
+/* Glass card and surface helpers */
+@layer components {
+  .glass-card {
+    @apply rounded-xl border border-white/10 bg-white/60 dark:bg-white/5 backdrop-blur-md shadow-glass;
+  }
+  .glass-surface {
+    @apply rounded-lg border border-white/10 bg-white/50 dark:bg-white/5 backdrop-blur;
+  }
+  .container-page {
+    @apply container mx-auto px-4 md:px-6 lg:px-8;
+  }
+}
