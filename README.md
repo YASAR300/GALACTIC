@@ -48,46 +48,49 @@ Here’s a galaxy-sized list of what makes this portal hilariously unbearable:
 
 
 ---
-
-## 📁 Project Structure  
+```
+# 📁 Project Structure
 
 /src
 │
 ├── components
-│   ├── Navbar.jsx              # Sticky navigation with dropdowns
-│   ├── Footer.jsx              # Fake legal disclaimers and alien fine print
-│   ├── ChatBox.jsx             # Floating sarcastic chatbot with typing effect
-│   ├── PermitCard.jsx          # Card for each permit with apply button
-│   ├── Notification.jsx        # Pop-up alerts for random events
-│   ├── Leaderboard.jsx         # Table of top "rejected" users
-│   ├── RedTapeMaze.jsx         # Mini-game for endless link clicking
-│   └── BureaucratHead.jsx      # Animated alien head for chatbot
+│ ├── Navbar.jsx # Sticky navigation with dropdowns
+│ ├── Footer.jsx # Fake legal disclaimers and alien fine print
+│ ├── ChatBox.jsx # Floating sarcastic chatbot with typing effect
+│ ├── PermitCard.jsx # Card for each permit with apply button
+│ ├── Notification.jsx # Pop-up alerts for random events
+│ ├── Leaderboard.jsx # Table of top "rejected" users
+│ ├── RedTapeMaze.jsx # Mini-game for endless link clicking
+│ └── BureaucratHead.jsx # Animated alien head for chatbot
 │
 ├── pages
-│   ├── Home.jsx                # Starry intro with queue ticket
-│   ├── Application.jsx         # Form for permit applications
-│   ├── Status.jsx              # Application status with random updates
-│   ├── Profile.jsx             # User credits, badges, and history
-│   ├── Catalog.jsx             # Browse 25+ permits
-│   ├── ErrorPage.jsx           # Glitchy 404-style cosmic crash
-│   └── RebellionMode.jsx       # Neon theme toggle page
+│ ├── Home.jsx # Starry intro with queue ticket
+│ ├── Application.jsx # Form for permit applications
+│ ├── Status.jsx # Application status with random updates
+│ ├── Profile.jsx # User credits, badges, and history
+│ ├── Catalog.jsx # Browse 25+ permits
+│ ├── ErrorPage.jsx # Glitchy 404-style cosmic crash
+│ └── RebellionMode.jsx # Neon theme toggle page
 │
 ├── utils
-│   ├── fakeResponses.js        # 150+ chatbot replies
-│   ├── permits.js              # 25+ funny permits with descriptions
-│   ├── randomEvents.js         # Logic for random pop-ups and crashes
-│   ├── gibberishTranslator.js  # Fake alien language generator
-│   ├── fakeBlockchain.js       # Parody blockchain for "secure" permits
-│   └── fakeLeaderboard.js      # Mock leaderboard data
+│ ├── fakeResponses.js # 150+ chatbot replies
+│ ├── permits.js # 25+ funny permits with descriptions
+│ ├── randomEvents.js # Logic for random pop-ups and crashes
+│ ├── gibberishTranslator.js # Fake alien language generator
+│ ├── fakeBlockchain.js # Parody blockchain for "secure" permits
+│ └── fakeLeaderboard.js # Mock leaderboard data
 │
-├── App.jsx                     # Main app with routing
-├── index.jsx                   # React entry point
-├── global.css                  # Base styles (orange/black theme)
-├── animations.css              # Animations for spins, shakes, and glitches
+├── App.jsx # Main app with routing
+├── index.jsx # React entry point
+├── global.css # Base styles (orange/black theme)
+├── animations.css # Animations for spins, shakes, and glitches
 │
 └── assets
-    └── images/                 # Project images
+└── images/ # Project images
 
+
+
+```
 ---
 
 ## 🎬 Demo Flow (2-Minute Hackathon Pitch)  
